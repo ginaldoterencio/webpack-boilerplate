@@ -1,0 +1,21 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>{{ site.name }}</title>
+        <meta name="description" content="{{ site.name }}">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="{{ config.baseUrl }}assets/css">
+        <!-- Place favicon.ico in the root directory -->
+    </head>
+    <body>
+        {% include 'partials/header.html' %}
+        {% block content %}
+        {% endblock %}
+    </body>
+</html>
+
+

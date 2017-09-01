@@ -1,0 +1,15 @@
+{% extends "layouts/app.html" %}
+
+{% set title = site.name %}
+
+{% block content %}
+  {{ site.description }}
+  <img src="{{ config.baseUrl }}assets/statics/img/novahaus.png" alt="">
+  <ul>
+    <li>
+      <a href="{{ config.baseUrl }}">Subpage</a>
+    </li>
+  </ul>
+  <p>Hello!!!</p>
+{% endblock %}
+

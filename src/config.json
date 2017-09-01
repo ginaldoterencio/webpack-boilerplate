@@ -1,0 +1,12 @@
+{
+  "html": {
+    "home": {
+      "template": "html/index.njk",
+      "filename": "index.html"
+    },
+    "subpage": {
+      "template": "html/subpage/example.njk",
+      "filename": "subpage/example.html"
+    }
+  }
+}
